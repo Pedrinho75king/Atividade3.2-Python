@@ -1,6 +1,6 @@
-def Avaliar(Relação):
-    if Relação >= 6:
-         print("Aprovado")
-     else:
-        print("Divórcio")
-Avaliar(6)
+def Qualificar(Volume):
+    if Volume <= 5:
+        print("Som baixo, continue assim!")
+    else:
+        print("Som alto, necessário diminuir...")
+Qualificar(6)
